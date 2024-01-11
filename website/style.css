@@ -1,0 +1,120 @@
+
+ :root{
+  margin: 0rem; -webkit-font-smoothing: antialiased;
+ }
+@media (device-width)
+{ @font-face {font-family: 'Comic Lemon', 'Hey Comic';
+    src: 'Comic Lemon.ttf', 'Hey Comic.otf';}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }  
+.bckgrnd {
+    background-color: #404E7C;
+    padding: auto;
+    margin: auto;
+    background-size: auto;
+}
+.imgcentre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.imgright{
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    width: 50%;
+}
+.centre{
+    text-align: center;
+}
+.lineargrad{
+        background: linear-gradient(to top,#404E7C, #301645)
+}
+.stackedlinear {
+    background: linear-gradient(
+        217deg,
+        rgb(255 0 0 / 80%),
+        rgb(255 0 0 / 0%) 70.71%
+      ), linear-gradient(127deg, rgba(85, 93, 85, 0.8), rgb(0 255 0 / 0%) 70.71%),
+      linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+  }
+.Pewt-teef{
+color: #92EC4F; font-family:'Comic Lemon'; font-size: 4rem; text-align: left;padding-top: 0.8rem;padding-right: 3rem;padding-left: 3rem;padding-bottom: 0.2rem;
+text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816); margin-top: auto;margin-bottom: 0rem; margin-left: auto;
+}
+.head1 {
+    color: #92EC4F; font-family: 'Comic Lemon'; font-size: 4rem;text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816);
+}
+.head2{
+    color: #92EC4F; font-family:'Comic Lemon'; font-size: 3rem;text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816);
+}
+.head3{
+    color: #92EC4F; font-family:'Comic Lemon'; font-size: 2rem;text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816);
+}
+.head4{
+    color: #92EC4F; font-family:'Comic Lemon'; font-size: 1rem;text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816);
+}
+.text1{color: #92EC4F; font-family:'Hey Comic'; font-size: 1.5rem;
+}
+.button1{
+    background-color: #92EC4F;border-radius: 20px;
+}
+.button2{background-color: yellow;border-radius: 20px;
+}
+.txtfd {
+    animation: fadeIn 2s;
+  }
+.topnav {
+    align-content: center;
+    background-color: #557671;
+    overflow: hidden;
+  }
+.topnav a {
+    float: left;
+    color:  #92EC4F;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Comic Lemon;
+  }
+.topnav a:hover {
+    color: #301645;
+    text-shadow: 2px 5px 0px rgba(197, 150, 247, 0.816);
+}
+.topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+ }
+.box {
+    text-align: center;
+    width:70rem;
+    padding:2rem;
+    margin: auto;
+    border-radius: 10px;
+    border-color:hsl(94, 81%, 62%);
+    border-width:1rem;
+    word-wrap: break-word;
+    background-color: #557671;
+  }
+.box2 {
+    text-align: center;
+    width: auto;
+    padding:2rem;
+    word-wrap: break-word;
+    background-color: #557671;
+
+  }
+.zoom {
+    padding: 4rem;
+    transition: transform .15s;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .zoom:hover {
+    transform: scale(1.2); 
+    text-shadow: 1rem, 1rem, 0.2rem #404E7C;}
+  }
