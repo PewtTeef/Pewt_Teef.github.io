@@ -10,7 +10,7 @@
     100% { opacity: 1; }
   }  
 .bckgrnd {
-    background-color: #404E7C;
+    background-color:#2F395B;
     padding: auto;
     margin: auto;
     background-size: auto;
@@ -31,7 +31,7 @@
     text-align: center;
 }
 .lineargrad{
-        background: linear-gradient(to top,#404E7C, #301645)
+        background: linear-gradient(to top,#2F395B, #301645); z-index: -1;
 }
 .stackedlinear {
     background: linear-gradient(
@@ -43,7 +43,7 @@
   }
 .Pewt-teef{
 color: #92EC4F; font-family:'Comic Lemon'; font-size: 4rem; text-align: left;padding-top: 0.8rem;padding-right: 3rem;padding-left: 3rem;padding-bottom: 0.2rem;
-text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816); margin-top: auto;margin-bottom: 0rem; margin-left: auto;
+text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816); margin-top: auto;margin-bottom: 0rem; margin-left: auto; z-index: 1;
 }
 .head1 {
     color: #92EC4F; font-family: 'Comic Lemon'; font-size: 4rem;text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816);
@@ -118,3 +118,7 @@ text-shadow: 2px 5px 0px rgba(28, 4, 53, 0.816); margin-top: auto;margin-bottom:
     transform: scale(1.2); 
     text-shadow: 1rem, 1rem, 0.2rem #404E7C;}
   }
+.wavediv {
+   z-index: -1;background-image: url ("Images\wavediv.png");background-repeat: repeat-x; width: 70%; height: 70%; margin-top: 0; 
+   margin-bottom: 2rem; padding: auto;
+} 
